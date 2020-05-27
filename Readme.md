@@ -14,15 +14,15 @@ Basicaly this repo gives you the ability to:
 
 Here's a quick face mask detection example :
 
-![](https://github.com/Cipulot/LeapMask/gifs/gif_facemask_detection_test.gif)
+![](https://github.com/Cipulot/LeapMask/blob/master/LeapMask/gifs/gif_facemask_detection_test.gif)
 
 And a condition based motion sensor data gathering:
 
-![](https://github.com/Cipulot/LeapMask/gifs/gif_nomask_mask_doorbell_example.gif)
+![](https://github.com/Cipulot/LeapMask/blob/master/LeapMask/gifs/gif_nomask_mask_doorbell_example.gif)
 
 ## Tech used
 For the facial detection a custom model was built and was tested with different implementations.
-The first tests were based on an haar cascade in OpenCV (you can see the result in the above gifs) but I quickly realized that this implementation was too much resource hungry and slow (you can test it if you want with this [script](https://github.com/Cipulot/LeapMask/OpenCV_only_old.py) and the "old" model). Therefore I've trained another model with Tensorflow, this time with a set of both real and computer generated positive images (source is below and a couple of hundreds taken by myself both via Google Images and in my local area). This has proven to be effective in reducing the narrowness in detection that a "one type only" approach can introduce.
+The first tests were based on an haar cascade in OpenCV (you can see the result in the above gifs) but I quickly realized that this implementation was too much resource hungry and slow (you can test it if you want with this [script](https://github.com/Cipulot/LeapMask/blob/master/LeapMask/OpenCV_only_old.py) and the "old" model). Therefore I've trained another model with Tensorflow, this time with a set of both real and computer generated positive images (source is below and a couple of hundreds taken by myself both via Google Images and in my local area). This has proven to be effective in reducing the narrowness in detection that a "one type only" approach can introduce.
 
 The input interface is based on the [Leap Motion](https://www.ultraleap.com/datasheets/Leap_Motion_Controller_Datasheet.pdf) gesture sensor with ad-hoc compiled files in order to make it work with Python3 (since it's only Python2 compatible out of the box).
 
@@ -34,11 +34,11 @@ To use this Python script I've implemented a very simple GUI that:
 
 Feature label change:
 
-![](https://github.com/Cipulot/LeapMask/gifs/Main_gui.gif)
+![](https://github.com/Cipulot/LeapMask/blob/master/LeapMask/gifs/Main_gui.gif)
 
 Gesture and virtual press:
 
-![](https://github.com/Cipulot/LeapMask/gifs/Gesture_gui.gif)
+![](https://github.com/Cipulot/LeapMask/blob/master/LeapMask/gifs/Gesture_gui.gif)
 
 ## Built with
 * [Python 3.7.7](https://www.python.org/downloads/release/python-377/) - Win64

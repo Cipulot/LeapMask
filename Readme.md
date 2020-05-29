@@ -7,9 +7,9 @@ This project is a sort of baseline for future custom projects that needs a way t
 I've been inspired by the global urge to detect if proper safety rules are followed by people in both public and private spaces. Being in university with this difficult situation I've found that the "real" problem will be the reopening of the spaces and the organization of classes, so I decided to put my experience into play.
 
 ## General functions
-Basicaly this repo gives you the ability to:
+Basically this repo gives you the ability to:
 * detect when a person is approaching the terminal through facial detection
-* detect if this particular person is wearing a facemask
+* detect if this particular person is wearing a face mask
 * provide a basic touch-less input interface in order to minimize surface contact with the skin (gesture recognition capable)
 
 Here's a quick face mask detection example :
@@ -61,6 +61,6 @@ This project was tested on the following configuration:
 If you want to compare the fluidity of the video feed w/ and w/o the feature detection process you can set the flag ```feed_only```: ```True``` disables the detection, ```False``` enables it.
 * When using dual (or more) monitor setup and you move the gui through the screens an error of scaling and ui element placement can occur. This is due to the fact that PyQt doesn't check natively if the dpi scale is changing (ex. from laptop pc to external monitor). This can cause the gui to look messed up if you try to run the app on a screen with different dpi scaling than the one that was designed on.
 
-## Reference 
+## Reference
 If you're interested looking into the Face Mask detection stuff take a look at this paper (in that you can find a GitHub Repo with a lot of training images and links to positive/negative images databases):
 [Masked Face Recognition Dataset and Application](https://arxiv.org/pdf/2003.09093.pdf)

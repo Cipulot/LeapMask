@@ -1,19 +1,7 @@
-remote_theme: daviddarnes/alembic
+theme: jekyll-theme-cayman
 
 exclude:
   - Readme.md
-
-# Set plugins
-plugins:
-  - jekyll-sitemap
-  - jekyll-mentions
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-redirect-from
-  - jekyll-default-layout
-  - jekyll-feed
-  - jemoji
-  - jekyll-remote-theme
 
 # Site Settings
 encoding: utf-8 # Make sure the encoding is right
@@ -21,5 +9,3 @@ lang: en-US # Set the site language
 title: "LeapMask"
 description: ""
 logo: ""
-
-theme: jekyll-theme-cayman

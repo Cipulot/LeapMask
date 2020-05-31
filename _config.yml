@@ -1,9 +1,6 @@
 markdown: GFM
 theme: jekyll-theme-cayman
 
-exclude:
-  - Readme.md
-
 # Site Settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language

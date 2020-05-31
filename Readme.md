@@ -14,11 +14,11 @@ Basically this repo gives you the ability to:
 
 Here's a quick face mask detection example :
 
-![foo](https://github.com/Cipulot/LeapMask/blob/master/LeapMask/gifs/gif_facemask_detection_test.gif)
+![](https://github.com/Cipulot/LeapMask/blob/master/LeapMask/gifs/gif_facemask_detection_test.gif?raw=true)
 
 And a condition based motion sensor data gathering:
 
-![foo](https://github.com/Cipulot/LeapMask/blob/master/LeapMask/gifs/gif_nomask_mask_doorbell_example.gif)
+![](https://github.com/Cipulot/LeapMask/blob/master/LeapMask/gifs/gif_nomask_mask_doorbell_example.gif?raw=true)
 
 ## Tech used
 For the facial detection a custom model was built and was tested with different implementations.
@@ -36,11 +36,11 @@ To use this Python script I've implemented a very simple GUI that:
 
 Feature label change:
 
-![foo](https://github.com/Cipulot/LeapMask/blob/master/LeapMask/gifs/Main_gui.gif)
+![](https://github.com/Cipulot/LeapMask/blob/master/LeapMask/gifs/Main_gui.gif?raw=true)
 
 Gesture and virtual press:
 
-![foo](https://github.com/Cipulot/LeapMask/blob/master/LeapMask/gifs/Gesture_gui.gif)
+![](https://github.com/Cipulot/LeapMask/blob/master/LeapMask/gifs/Gesture_gui.gif?raw=true)
 
 ## Built with
 * [Python 3.7.7](https://www.python.org/downloads/release/python-377/) - Win64

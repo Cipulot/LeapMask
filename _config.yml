@@ -1,2 +1,23 @@
-markdown: GFM
-theme: jekyll-theme-cayman
+remote_theme: daviddarnes/alembic
+
+exclude:
+  - README.md
+
+# Set plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-default-layout
+  - jekyll-feed
+  - jemoji
+  - jekyll-remote-theme
+
+# Site Settings
+encoding: utf-8 # Make sure the encoding is right
+lang: en-US # Set the site language
+title: "LeapMask"
+description: ""
+logo: ""

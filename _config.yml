@@ -1,7 +1,7 @@
 remote_theme: daviddarnes/alembic
 
 exclude:
-  - README.md
+  - Readme.md
 
 # Set plugins
 plugins:

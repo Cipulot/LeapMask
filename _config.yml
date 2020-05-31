@@ -21,3 +21,5 @@ lang: en-US # Set the site language
 title: "LeapMask"
 description: ""
 logo: ""
+
+theme: jekyll-theme-cayman

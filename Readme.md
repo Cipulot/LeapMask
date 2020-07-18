@@ -63,6 +63,10 @@ This project was tested on the following configuration:
 If you want to compare the fluidity of the video feed w/ and w/o the feature detection process you can set the flag ```feed_only```: ```True``` disables the detection, ```False``` enables it.
 * When using dual (or more) monitor setup and you move the gui through the screens an error of scaling and ui element placement can occur. This is due to the fact that PyQt doesn't check natively if the dpi scale is changing (ex. from laptop pc to external monitor). This can cause the gui to look messed up if you try to run the app on a screen with different dpi scaling than the one that was designed on.
 
+## To do
+* Create a release with proper executable for Windows.
+* Reduce the need of gpu power.
+
 ## Reference
 If you're interested looking into the Face Mask detection stuff take a look at this paper (in that you can find a GitHub Repo with a lot of training images and links to positive/negative images databases):
 [Masked Face Recognition Dataset and Application](https://arxiv.org/pdf/2003.09093.pdf)

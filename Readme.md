@@ -6,7 +6,7 @@ This project is a sort of baseline for future custom projects that needs a way t
 ## Inspiration
 I've been inspired by the global urge to detect if proper safety rules are followed by people in both public and private spaces. Being in university with this difficult situation I've found that the "real" problem will be the reopening of the spaces and the organization of classes, so I decided to put my experience into play.
 
-## General functions
+## General features
 Basically this repo gives you the ability to:
 * detect when a person is approaching the terminal through facial detection
 * detect if this particular person is wearing a face mask

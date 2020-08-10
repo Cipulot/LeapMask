@@ -53,10 +53,11 @@ In order to make the Leap Motion Python library to work with Python3 (64bit for 
 The Leap Motion V4 SDK also works but introduces a tremendous amount of bugs with Python 3 that prevents the connection in many occasions.
 
 **NEW!** An updated version of the pre compiled files for the Leap Motion Library is now available at this ![repository](https://github.com/Cipulot/Leap-Motion-Python-3), providing Python 3.8.4 support.
+
 ## Specifications
 This project was tested on the following configuration:
 * i7-1065G7 (stock)
-* 16 GB Ram
+* 16 GB Ram (also tested with 32GB, no notable difference detected since the process is more GPU dependent than system memory dependent)
 * NVIDIA GeForce MX250 (2GB, driver version 445.87)
 
 ## Known issues

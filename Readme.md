@@ -52,6 +52,7 @@ Gesture and virtual press:
 In order to make the Leap Motion Python library to work with Python3 (64bit for now) you need to use the provided pre-compiled files and put them in your installation path in the folders that are named as the one that are provided. You can find those in the "LM Python3 files" folder. Note that these files are a direct recompilation of the Python2 compatible scripts and not fully tested.
 The Leap Motion V4 SDK also works but introduces a tremendous amount of bugs with Python 3 that prevents the connection in many occasions.
 
+**NEW!** An updated version of the pre compiled files for the Leap Motion Library is now available at this ![repository](https://github.com/Cipulot/Leap-Motion-Python-3), providing Python 3.8.4 support.
 ## Specifications
 This project was tested on the following configuration:
 * i7-1065G7 (stock)

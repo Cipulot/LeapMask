@@ -43,7 +43,7 @@ Gesture and virtual press:
 ![](https://github.com/Cipulot/LeapMask/blob/master/LeapMask/gifs/Gesture_gui.gif?raw=true)
 
 ## Built with
-* [Python 3.7.7](https://www.python.org/downloads/release/python-377/) - Win64
+* [Python 3.8.6](https://www.python.org/downloads/release/python-386/) - Win64
 * [PyQt5](https://pypi.org/project/PyQt5/) - For basic gui
 * [Tensorflow 2.2](https://www.tensorflow.org/install) - GPU used
 * [Leap Motion v2 SDK](https://developer.leapmotion.com/setup/desktop) - With [fix](https://forums.leapmotion.com/t/resolved-windows-10-fall-creators-update-bugfix/6585)
